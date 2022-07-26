@@ -26,17 +26,8 @@ file = "editedfile.csv"
 df.to_csv(file, index=False, encoding='utf-8')
 
 
-
-
-
-
 """
+Lower case the values of column "email"
 df["email"] = df["email"].str.lower()
 print(df)
 """
-
-# Export df to a new .csv file
-# file = 'newfile.csv'
-# dir = os.getcwd()
-# dir1 = os.path.join(dir+file)
-# df.to_csv(dir1, index=False, encoding='utf-8')
