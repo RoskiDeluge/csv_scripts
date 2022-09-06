@@ -4,6 +4,8 @@ from uuid import uuid4
 from pandas import DataFrame
 from typing import Set, Any
 
+# add to .zshrc
+# alias csvc='python ~[your/path]/csv_clean.py'
 # Get file name from command line
 inFile = sys.argv[1]
 
